@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&family=Open+Sans:wght@400;700&family=Poppins:wght@400;500&display=swap');
+
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #006aff;
+}
+
+/*    color: #006aff;  // #0051c4 #0869ef*/
+
+/* H E A D E R*/ 
+
+nav {
+    background-color: #006aff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav h1 {
+    margin:  10px  0px 0px 10%;
+    font-weight: bold;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    right: 10%;
+    position: relative;
+}
+
+nav li {
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+.menu i {
+    color: white;
+    font-size: 2rem;
+    margin: 15px 0px 0px 0px;
+    display: none;
+}
+
+.menu ul {
+    display: none;
+
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu i:hover + ul{
+    display: block;
+}
+
+/* H E A D E R*/ 
+
+/* H O M E */
+
+.home {
+    background-color: #006aff;
+
+}
+
+.home h1 {
+    color: white;
+    margin: 200px 150px 95px 10%;
+    font-size: 60px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+}
+
+.home img {
+    border-radius: 5%;
+    transform: rotateZ(10deg);
+    position: relative;
+    height: 215px;
+    width: 131px;
+}
+
+.home .img-one {
+    z-index: 100;
+}
+
+.home .img-two {
+    z-index: 50;
+}
+
+.img .img-three {
+    z-index: 60;
+    padding-top: 30px;
+}
+
+/* H O M E */
+
+/* A D V A N T A G E S */
+
+.advantages {
+    padding: 100px;
+}
+
+.advantages .advngs-boxs {
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+}
+
+.advantages i {
+    color: #006aff;
+    font-size: 3rem;
+    margin-left: 160px;
+}
+
+.advantages h3 {
+    color: #006aff;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.advantages p {
+    color: #777;
+    text-align: center;
+}
+
+
+/* A D V A N T A G E S */
+
+/* P E O P L E */
+
+.people {
+    padding: 100px;
+    background-color: #006aff;
+}
+
+.people .people-boxs {
+    display: grid;
+    grid-template-columns: repeat(2, 530px);
+    grid-column-gap: 70px;
+}
+
+.people .people-boxs img {
+    height: 200px;
+    width: 200px;
+    margin: 40px 0px 40px 155px;
+}
+
+.people .people-boxs h1 {
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.people .people-boxs h5 {
+    font-style: italic;
+    display: inline-block;
+}
+
+/* P E O P L E */
+
+
+/* A B O N M E N T*/
+
+.subscribe {
+    padding: 100px;
+}
+
+.subscribe .subscribe-boxs  h1 {
+    color: #006aff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.subscribe p {
+    color: #777;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.subscribe .offers-boxs {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-column-gap: 50px;
+}
+.subscribe .offers-boxs div {
+    border: #006aff solid 2px;
+}
+
+.subscribe .offers-boxs h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+    background-color: #3a81e6b2;
+}
+
+.subscribe .button-one {
+    margin: 115px 0px 30px 120px;
+}
+
+.subscribe .button-two {
+    margin: 65px 0px 30px 120px;
+}
+
+.subscribe .button-three {
+    margin: 20px 0px 30px 120px;
+}
+
+.subscribe a {
+    color: white;
+    background-color: #006aff;
+    padding: 15px 25px;
+    border: blue;
+    border-radius: 5%;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* A B O N M E N T*/
+
+/* D O W N L O A D */
+
+.download {
+    padding: 100px 100px 30px 100px;
+    background-color: #006aff;
+}
+
+.download h1 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 45px;
+}
+
+
+.download a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.download .link-one {
+    background-color: #006aff;
+    border: 2px solid blue;
+    padding: 15px 35px;
+    margin-left: 330px;
+}
+
+.download .link-one a {
+    color: white;
+}
+
+.download .link-one i {
+    color: white;
+    font-size: 1.8rem;
+    position: absolute;
+    margin-left: -17px;
+}
+
+.download .link-two {
+    background-color: white;
+    border: 2px solid blue;
+    padding: 15px 35px;
+    margin-left: 115px;
+}
+
+.download .link-two a {
+    color: #006aff;
+}
+
+.download .link-two i {
+    color: #006aff;
+    font-size: 1.8rem;
+    position: relative;
+    margin-left: -17px;
+}
+
+.download h3 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    margin: 30px 0px 0px 485px;
+    display: inline-block;
+}
+
+.download .icons {
+    margin: 30px 0px 0px 445px;
+}
+
+.download .icons i {
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.download::after {
+    content: "";
+    height: 2px;
+    width: 550px;
+    border-radius: 5%;
+    background-color: white;
+    margin: 0px 0px 0px 350px;
+    display: inline-block;
+}
+
+/* D O W N L O A D */
+
+
+/* M E D I A */
+
+@media only screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .menu i {
+        display: block;
+        margin: 10px 125px 0px 0px;
+    }
+
+    .home img {
+        border-radius: 5%;
+        transform: rotateZ(10deg);
+        position: relative;
+        height: 150px;
+        width: 80px;
+        margin-left: 16px;
+    }
+
+    .advantages, .home, .download , nav, .people, .subscribe {
+
+        padding: 0px;
+    }
+
+    .advantages .advngs-boxs {
+        display: grid;
+        grid-template-columns: repeat(1, 250px);
+    }
+
+    .advantages i {
+        color: #006aff;
+        font-size: 3rem;
+        margin-left: 50px;
+    }    
+    
+    .people .people-boxs {
+        display: grid;
+        grid-template-columns: repeat(1, 250px);
+    }
+
+    .people .people-boxs img {
+        height: 150px;
+        width: 150px;
+        margin: 20px 0px 0px 50px;
+    }
+    
+    .subscribe .offers-boxs {
+        display: grid;
+        grid-template-columns: repeat(1, 250px);
+    }
+
+    .subscribe .subscribe-boxs h1 {
+        font-size: 20px;
+        margin: 20px 0px 0px -71px;
+    }
+
+    .subscribe .subscribe-boxs p {
+        margin: 20px 0px 0px -71px;
+        display: inline-block;
+    }
+
+    .download button, .download .icons, .download::after, .download h3 {
+        display: none;
+    }
+}
+
+
+/* M E D I A */
+
+
+
+
+
+
+
