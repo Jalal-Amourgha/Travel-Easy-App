@@ -19,8 +19,6 @@
     background-color: #006aff;
 }
 
-/*    color: #006aff;  // #0051c4 #0869ef*/
-
 /* H E A D E R*/ 
 
 nav {
@@ -124,7 +122,7 @@ nav li {
 
 .advantages .advngs-boxs {
     display: grid;
-    grid-template-columns: repeat(3, 380px);
+    grid-template-columns: repeat(3, calc(100% / 3));
 }
 
 .advantages i {
@@ -156,8 +154,7 @@ nav li {
 
 .people .people-boxs {
     display: grid;
-    grid-template-columns: repeat(2, 530px);
-    grid-column-gap: 70px;
+    grid-template-columns: repeat(2, calc(100% / 2));
 }
 
 .people .people-boxs img {
@@ -170,6 +167,7 @@ nav li {
     color: white;
     text-align: center;
     line-height: 1.8;
+    height: 300px;
 }
 
 .people .people-boxs h5 {
@@ -202,7 +200,7 @@ nav li {
 
 .subscribe .offers-boxs {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(3, calc(90% / 3));
     grid-column-gap: 50px;
 }
 .subscribe .offers-boxs div {
@@ -334,7 +332,7 @@ nav li {
 
 /* M E D I A */
 
-@media only screen and (max-width: 768px) {
+@media  (max-width: 768px) {
     nav ul {
         display: none;
     }
@@ -354,8 +352,8 @@ nav li {
     }
 
     .advantages, .home, .download , nav, .people, .subscribe {
-
         padding: 0px;
+        margin: 0px 15px;
     }
 
     .advantages .advngs-boxs {
